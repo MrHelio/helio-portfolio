@@ -1,0 +1,257 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+:root {
+	--color-background: #0a0a23;
+	--color-font: #fff;
+	--color-green-0: #00ad6f;
+	--color-green-1: #078155;
+	--color-blue: #15155e;
+	--color-blue-1: #080c33;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--color-background);
+	color: var(--color-font);
+	overflow-x: hidden;
+}
+
+
+/* Scroll Bar
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-green-0);
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-green-1);
+}
+
+
+
+/* Para colocar uma imagem de fundo no site
+main {
+	background: url("") no-repeat center center;
+	background-size: cover;
+	height: 92vh;
+}*/
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.home {
+		flex-direction: unset;
+		justify-content: space-around;
+	}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+	/* ------------------ Nav ------------------ */
+	.nav-list {
+		position: static;
+		width: auto;
+		height: auto;
+		background: transparent;
+		flex-direction: unset;
+		align-items: center;
+		justify-content: unset;
+		transform: none;
+		transition: unset;
+	}
+
+	.nav-list li {
+		margin-left: 32px;
+		opacity: 1;
+	}
+	
+
+	.mobile-menu {
+		display: none;
+	}
+
+
+	/* ------------------ Home ------------------ */
+	.home {
+		flex-direction: unset;
+		justify-content: space-around;
+	}
+
+	.home-my-img {
+		width: 25rem;
+	}
+
+
+	/* ------------------ About Me ------------------ */
+	.about-me-container {
+		flex-direction: unset;
+	}
+
+
+	/* ------------------ Contact ------------------ */
+	.contact-helio {
+		flex-direction: unset;
+	}
+
+	.contact-helio p {
+		margin: 0px 50px 0px 0px;
+	}
+
+	.my-contact {
+		margin: 0px 5px 0px 10px;
+	}
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+	/* ------------------ Nav ------------------ */
+	.nav-list {
+		position: static;
+		width: auto;
+		height: auto;
+		background: transparent;
+		flex-direction: unset;
+		align-items: center;
+		justify-content: unset;
+		transform: none;
+		transition: unset;
+	}
+
+	.nav-list li {
+		margin-left: 32px;
+		opacity: 1;
+	}
+	
+
+	.mobile-menu {
+		display: none;
+	}
+
+
+	/* ------------------ Home ------------------ */
+	.home {
+		flex-direction: unset;
+		justify-content: space-around;
+	}
+
+	.home-my-img {
+		width: 30rem;
+	}
+
+
+	/* ------------------ About Me ------------------ */
+	.about-me-container {
+		flex-direction: unset;
+	}
+
+	.about-me-img {
+		width: 30rem;
+	}
+
+
+	/* ------------------ Contact ------------------ */
+	.contact-helio {
+		flex-direction: unset;
+	}
+
+	.contact-helio p {
+		margin: 0px 50px 0px 0px;
+	}
+
+	.my-contact {
+		margin: 0px 5px 0px 10px;
+	}
+}
+
+
+@media screen and (min-width: 1400px) {
+	/* ------------------ Nav ------------------ */
+	.nav-list {
+		position: static;
+		width: auto;
+		height: auto;
+		background: transparent;
+		flex-direction: unset;
+		align-items: center;
+		justify-content: unset;
+		transform: none;
+		transition: unset;
+	}
+
+	.nav-list li {
+		margin-left: 32px;
+		opacity: 1;
+	}
+	
+
+	.mobile-menu {
+		display: none;
+	}
+
+
+	/* ------------------ Home ------------------ */
+	.home {
+		flex-direction: unset;
+		justify-content: center;
+	}
+	.home-my-img {
+		width: 30rem;
+	}
+	.home-container {
+		margin: 0 7rem 0 7rem;
+	}
+
+
+	/* ------------------ About Me ------------------ */
+	.about-me-container {
+		flex-direction: unset;
+		justify-content: center;
+	}
+
+	.about-me-img {
+		width: 30rem;
+	}
+
+	.about-me-text {
+		width: 30rem;
+		margin: 0 7rem 0 7rem;
+	}
+
+
+	/* ------------------ Contact ------------------ */
+	.contact-helio {
+		flex-direction: unset;
+	}
+
+	.contact-helio p {
+		margin: 0px 50px 0px 0px;
+	}
+
+	.my-contact {
+		margin: 0px 5px 0px 10px;
+	}
+}
