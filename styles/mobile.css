@@ -1,5 +1,6 @@
 
 
+
 ul {
 	list-style: none;
 	display: flex;
@@ -171,6 +172,10 @@ nav {
 
 .about-me-img {
 	width: 27rem;
+}
+
+.about-me-text a {
+	color: var(--color-green-0);
 }
 
 
