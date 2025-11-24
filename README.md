@@ -42,7 +42,6 @@ Abra `http://localhost:8000` no navegador.
 - `assets/` : Ícones, imagens e recursos estáticos
 - `scripts/` : Scripts JavaScript
 - `styles/` : Arquivos CSS
-- `README.md` : Este documento, que 
 
 
 ## Contato
