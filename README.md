@@ -47,5 +47,4 @@ Abra `http://localhost:8000` no navegador.
 ## Contato
 
 - **Email:** ramon.helio027@gmail.com
-- **GitHub:** `https://github.com/MrHelio`
 - **LinkedIn:** `https://www.linkedin.com/in/helio-ramon-dev/`
