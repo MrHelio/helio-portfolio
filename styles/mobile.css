@@ -228,14 +228,14 @@ nav {
 	margin: 200px 60px 0px 60px;
 }
 
-.contact-helio {
+.contact-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
 
-.contact-helio p {
+.contact-container p {
 	margin: 0px 0px 30px 0px;
 }
 

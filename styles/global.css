@@ -114,11 +114,11 @@ main {
 
 
 	/* ------------------ Contact ------------------ */
-	.contact-helio {
+	.contact-container {
 		flex-direction: unset;
 	}
 
-	.contact-helio p {
+	.contact-container p {
 		margin: 0px 50px 0px 0px;
 	}
 
@@ -175,11 +175,11 @@ main {
 
 
 	/* ------------------ Contact ------------------ */
-	.contact-helio {
+	.contact-container {
 		flex-direction: unset;
 	}
 
-	.contact-helio p {
+	.contact-container p {
 		margin: 0px 50px 0px 0px;
 	}
 
@@ -244,11 +244,11 @@ main {
 
 
 	/* ------------------ Contact ------------------ */
-	.contact-helio {
+	.contact-container {
 		flex-direction: unset;
 	}
 
-	.contact-helio p {
+	.contact-container p {
 		margin: 0px 50px 0px 0px;
 	}
 
